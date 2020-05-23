@@ -30,5 +30,5 @@
 
  //Exercise 4
  function evenOrOdd(number) {
-     return (number / 2 === 0) ? "Even number" : " Odd number";
+     return (number % 2 === 0) ? "Even number" : " Odd number";
  }
